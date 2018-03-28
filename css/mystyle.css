@@ -1,61 +1,4 @@
-<<<<<<< HEAD
-body{
-    margin: 0px;
-    padding: 0px;
-}
-a {;text-decoration: none;}
-li{list-style-type: none}
-#header{
-    width: 100%;
-    margin: 0 auto;
-    background:url(../images/header/bj_011.png) repeat-x left top;
-}
-#header .inner{
-    width: 1000px;
-}
-.wrapper .inner{
-    width: 100%;
-    margin: 0 auto;
-}
-.head{
-    height: auto;;
-}
-.clearfix{
-    display: block;
-}
-.head .head-left{
-    float: left;
-    display: inline-block;
-    margin: 4px 0px 4px 0px;
-}
-.head .head-right{
-    float: left;
-    display: inline-block;
-    margin-top: 24px;
-    text-align: right;
-    position: relative;
-}
-.jsnav{
-    float: left;
-    margin-top: 22px;
-}
-.rolenav {float: none;height: 30px;line-height: 30px;margin-right: 15px;text-align: right;color: #4479ad;}
-.rolenav ul {float: left;}
-.rolenav ul li {float: left;margin: 0 8px;}
-.rolenav a {font-size: 15px;color: #CEA7AA;}
-.rolenav a.link-i5 {margin-left: 15px;}
-.rolenav a:hover {color: #fff;text-decoration: underline;}
 
-.topnav{
-    display: none;
-    width: auto;
-    margin-bottom: 4px;
-}
-.head .lang{
-    float: right;
-    margin-left: 4px;
-}
-=======
 body{
     margin: 0px;
     padding: 0px;
@@ -102,8 +45,6 @@ li{list-style-type: none}
 .rolenav a {font-size: 15px;color: #CEA7AA;}
 .rolenav a.link-i5 {margin-left: 15px;}
 .rolenav a:hover {color: #fff;text-decoration: underline;}
-<<<<<<< HEAD
-
 
 .topnav{
     display: none;
@@ -114,6 +55,3 @@ li{list-style-type: none}
     float: right;
     margin-left: 4px;
 }
-=======
->>>>>>> f5075debe177b6c151cb5b2162aa2cb1a9490477
->>>>>>> ce8fe3bf81fc92aeb8efe561d56a537a24f3e03d
