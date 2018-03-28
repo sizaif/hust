@@ -54,3 +54,36 @@ li{list-style-type: none}
     float: right;
     margin-left: 4px;
 }
+.main-menu{
+    position: relative;
+    width: 992;
+    height: 50px;
+    padding-top: 126px;
+}
+.main-menu .wp-menu{
+    margin-left: 20px;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    list-style-type: none;
+}
+.main-menu .wp-menu .menu-item{
+    float: left;
+    position: relative;
+    padding: 0px 0px 0px 0px;
+    width: 100px;
+}
+.main-menu .wp-menu .menu-item a.menu-link {
+    font-size: 18px;
+    text-align: center;
+    line-height: 50px;
+    padding: 0px 22px 0px 0px;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+}
+.main-menu .wp-menu .sub-menu{
+    display: inline;
+    width: 166px;
+    padding: 0px;
+}
