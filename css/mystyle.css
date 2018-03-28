@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     margin: 0px;
     padding: 0px;
@@ -54,3 +55,36 @@ li{list-style-type: none}
     float: right;
     margin-left: 4px;
 }
+=======
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#header{
+    width: 100%;
+    margin: 0 auto;
+    background:url(../images/header/bj_011.png) repeat-x left top;
+}
+#header .inner{
+    width: 1000px;
+}
+.header-css{
+    width: 100%;
+    margin: 0 auto;
+}
+.head .head-left{
+    float: left;
+    display: inline-block;
+    margin: 4px 0px 4px 0px;
+}
+.jsnav{
+    float: left;
+    margin-top: 22px;
+}
+.rolenav {float: none;height: 30px;line-height: 30px;margin-right: 15px;text-align: right;color: #4479ad;}
+.rolenav ul {float: left;}
+.rolenav ul li {float: left;margin: 0 8px;}
+.rolenav a {font-size: 15px;color: #CEA7AA;}
+.rolenav a.link-i5 {margin-left: 15px;}
+.rolenav a:hover {color: #fff;text-decoration: underline;}
+>>>>>>> f5075debe177b6c151cb5b2162aa2cb1a9490477
