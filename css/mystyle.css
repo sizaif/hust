@@ -41,7 +41,7 @@ li{list-style-type: none}
 }
 .rolenav {float: none;height: 30px;line-height: 30px;margin-right: 15px;text-align: right;color: #4479ad;}
 .rolenav ul {float: left;}
-.rolenav ul li {float: left;margin: 0 8px;}
+.rolenav ul li {float: left;margin: 0px;}
 .rolenav a {font-size: 15px;color: #CEA7AA;}
 .rolenav a.link-i5 {margin-left: 15px;}
 .rolenav a:hover {color: #fff;text-decoration: underline;}
@@ -51,40 +51,55 @@ li{list-style-type: none}
     width: auto;
     margin-bottom: 4px;
 }
-.head .lang{
-    float: right;
-    margin-left: 4px;
-}
-.main-menu{
-    position: relative;
-    width: 992;
-    height: 50px;
-    padding-top: 126px;
-}
-.main-menu .wp-menu{
-    margin-left: 20px;
-    margin: 0px;
-    padding: 0px;
-    display: block;
-    list-style-type: none;
-}
-.main-menu .wp-menu .menu-item{
-    float: left;
-    position: relative;
-    padding: 0px 0px 0px 0px;
-    width: 100px;
-}
+.lang{float: right;margin-left: 10px;}
+.lang li{ float: left;margin-left: 20px;}
+.lang li,.lang li a{ line-height: 30px;font-size: 14px;color: #fff;}
+
+
+/* 导航栏设置 */
+
 .main-menu .wp-menu .menu-item a.menu-link {
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
     line-height: 50px;
+    color: #fff;
     padding: 0px 22px 0px 0px;
     display: inline-block;
     height: 50px;
     line-height: 50px;
-}
-.main-menu .wp-menu .sub-menu{
-    display: inline;
+} 
+
+/* .main-menu .wp-menu .sub-menu{
+    display:block;
+    position: absolute;
     width: 166px;
     padding: 0px;
-}
+} */
+.main-menu {    position: relative;width: 992;height: 50px;padding-top: 85px;}
+.main-menu .wp-menu {margin-left: 20px;    margin: 0px;  display: block;list-style-type: none;}
+.main-menu .wp-menu .menu-item {float: left;position: relative; padding: 0px 0px 0px 0px; width: 100px; }
+.main-menu .wp-menu .menu-item a.menu-link span {display: inline-block;height: 50px;line-height: 50px;font-size: 13px;color: #9e9da2;}
+.main-menu .wp-menu .menu-item a.menu-link:hover, .main-menu .wp-menu .menu-item a.selected, .main-menu .wp-menu .parent a.parent {color: #fff;background-color: #600808;}
+.main-menu .wp-menu .menu-item a.menu-link:hover span, .main-menu .wp-menu .menu-item a.selected span, .main-menu .wp-menu .parent a.parent span {color: #beb065;}
+.main-menu .wp-menu .menu-item .menu-arrow {display: none;}
+.main-menu .wp-menu .i1 a.menu-link {background-image: none;}
+.main-menu .wp-menu .sub-menu {display: none;width: 166px;position: absolute;left: 0;top: 48px;background: #600808;opacity: 0.8;filter: alpha(opacity=80);z-index: 100;}
+.main-menu .wp-menu .sub-menu li {float: none;position: relative;}
+.main-menu .wp-menu .sub-menu li a {display: block;line-height: 17px;padding: 5px 15px;color: #fff;font-size: 13px;}
+.main-menu .wp-menu .sub-menu li a:hover {color: #600808;background: #fff;}
+.main-menu .wp-menu .sub-menu .sub-menu {left: 100%;background: #600808}
+.main-menu .wp-menu .sub-menu .sub-menu .sub-menu {background: #600808}
+.main-menu .sub-menu-wrap {width: 100%;position: absolute;left: 0;right: 0;top: 54px;background: #003E81;opacity: 0.8;filter: alpha(opacity=80);z-index: 100;display: none;}
+.main-menu .sub-menu-wrap .sub-menu-list {padding: 25px 0;margin-left: 110px;}
+.main-menu .sub-menu-wrap .sub-menu-list .sub-menu {float: left;width: 116px;}
+.main-menu .sub-menu-wrap .sub-menu-list .sub-menu-m2 {width: 129px;}
+.main-menu .sub-menu-wrap .sub-menu-list .sub-menu-m3 {width: 130px;}
+.main-menu .sub-menu-wrap .sub-menu-list .sub-menu-m4 {width: 127px;}
+.main-menu .sub-menu-wrap .sub-menu-list .sub-menu-m5 {width: 116px;}
+.main-menu .sub-menu-wrap .sub-menu-list .sub-menu-m6 {width: 116px;}
+.main-menu .sub-menu-wrap .sub-menu-list .sub-menu-m7 {width: 116px;}
+.main-menu .sub-menu-wrap .sub-menu-list .sub-menu-m8 {width: 128px;}
+.main-menu .sub-menu-wrap .sub-menu-list .sub-menu-m9 {width: 120px;}
+.main-menu .sub-menu-wrap .sub-menu-list .sub-menu li {margin-left: 23px;}
+.main-menu .sub-menu-wrap .sub-menu-list .sub-menu li a {display: block;line-height: 17px;padding: 5px 0;color: #fff;font-size: 13px;}
+.main-menu .sub-menu-wrap .sub-menu-list .sub-menu li a:hover {color: #e4bd2f;text-decoration: underline;}
