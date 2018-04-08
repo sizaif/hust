@@ -58,48 +58,85 @@ li{list-style-type: none}
 
 /* 导航栏设置 */
 
-.main-menu .wp-menu .menu-item a.menu-link {
+.main-menu .wp-menu  {
     font-size: 16px;
     text-align: center;
-    line-height: 50px;
     color: #fff;
-    padding: 0px 22px 0px 0px;
-    display: inline-block;
     height: 50px;
     line-height: 50px;
+    margin: 0px;
+    padding:0px;
+    list-style-type: none;
 } 
 
-/* .main-menu .wp-menu .sub-menu{
-    display:block;
+/* 横向主菜单 */
+.main-menu{ position: relative;width: 1000;height: 50px;padding-top: 85px;}
+.main-menu .wp-menu {margin-left: 20px; margin: 0px;  display: block;}
+.main-menu .wp-menu .menu-item{
+    background: #600808;
+    display: block;
+    float: left;
+    position: relative; 
+    padding: 0px; 
+    margin: 0px;
+    width: 110px;
+ }
+.main-menu .wp-menu .menu-item .menu-link{
+    background: #600808;
+    color:#FFF;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    padding: 8px 7px 8px 7px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+}
+.main-menu .wp-menu .menu-item a.menu-link:hover {
+    color:#fff;
+    background:#600808;
+}
+
+/* 纵向子菜单 默认隐藏 */
+.main-menu .wp-menu .menu-item .sub-menu 
+{
+    display: none;
     position: absolute;
-    width: 166px;
+    width: 100px;
+    background: #600808;
     padding: 0px;
-} */
-.main-menu {    position: relative;width: 992;height: 50px;padding-top: 85px;}
-.main-menu .wp-menu {margin-left: 20px;    margin: 0px;  display: block;list-style-type: none;}
-.main-menu .wp-menu .menu-item {float: left;position: relative; padding: 0px 0px 0px 0px; width: 100px; }
-.main-menu .wp-menu .menu-item a.menu-link span {display: inline-block;height: 50px;line-height: 50px;font-size: 13px;color: #9e9da2;}
-.main-menu .wp-menu .menu-item a.menu-link:hover, .main-menu .wp-menu .menu-item a.selected, .main-menu .wp-menu .parent a.parent {color: #fff;background-color: #600808;}
-.main-menu .wp-menu .menu-item a.menu-link:hover span, .main-menu .wp-menu .menu-item a.selected span, .main-menu .wp-menu .parent a.parent span {color: #beb065;}
-.main-menu .wp-menu .menu-item .menu-arrow {display: none;}
-.main-menu .wp-menu .i1 a.menu-link {background-image: none;}
-.main-menu .wp-menu .sub-menu {display: none;width: 166px;position: absolute;left: 0;top: 48px;background: #600808;opacity: 0.8;filter: alpha(opacity=80);z-index: 100;}
-.main-menu .wp-menu .sub-menu li {float: none;position: relative;}
-.main-menu .wp-menu .sub-menu li a {display: block;line-height: 17px;padding: 5px 15px;color: #fff;font-size: 13px;}
-.main-menu .wp-menu .sub-menu li a:hover {color: #600808;background: #fff;}
-.main-menu .wp-menu .sub-menu .sub-menu {left: 100%;background: #600808}
-.main-menu .wp-menu .sub-menu .sub-menu .sub-menu {background: #600808}
-.main-menu .sub-menu-wrap {width: 100%;position: absolute;left: 0;right: 0;top: 54px;background: #003E81;opacity: 0.8;filter: alpha(opacity=80);z-index: 100;display: none;}
-.main-menu .sub-menu-wrap .sub-menu-list {padding: 25px 0;margin-left: 110px;}
-.main-menu .sub-menu-wrap .sub-menu-list .sub-menu {float: left;width: 116px;}
-.main-menu .sub-menu-wrap .sub-menu-list .sub-menu-m2 {width: 129px;}
-.main-menu .sub-menu-wrap .sub-menu-list .sub-menu-m3 {width: 130px;}
-.main-menu .sub-menu-wrap .sub-menu-list .sub-menu-m4 {width: 127px;}
-.main-menu .sub-menu-wrap .sub-menu-list .sub-menu-m5 {width: 116px;}
-.main-menu .sub-menu-wrap .sub-menu-list .sub-menu-m6 {width: 116px;}
-.main-menu .sub-menu-wrap .sub-menu-list .sub-menu-m7 {width: 116px;}
-.main-menu .sub-menu-wrap .sub-menu-list .sub-menu-m8 {width: 128px;}
-.main-menu .sub-menu-wrap .sub-menu-list .sub-menu-m9 {width: 120px;}
-.main-menu .sub-menu-wrap .sub-menu-list .sub-menu li {margin-left: 23px;}
-.main-menu .sub-menu-wrap .sub-menu-list .sub-menu li a {display: block;line-height: 17px;padding: 5px 0;color: #fff;font-size: 13px;}
-.main-menu .sub-menu-wrap .sub-menu-list .sub-menu li a:hover {color: #e4bd2f;text-decoration: underline;}
+    margin: 0px;
+    list-style-type: none;
+    z-index: 100;
+}
+.main-menu .wp-menu .menu-item .sub-menu .sub-item 
+{
+    display: block;
+    width: 120px;
+    float:none;
+    padding: 0px;
+    background: #600808;
+}
+.main-menu .wp-menu .menu-item .sub-menu .sub-item .sub-link
+{
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+    height: 40px;
+    padding: 0px;
+    margin: 0px;
+
+    background: #600808;
+}
+.main-menu .wp-menu .menu-item .sub-menu .sub-item .sub-link:hover
+{
+    color: #600808;
+    background: #fff;
+}
+
+
+
+
+/* .main-menu .sub-menu-wrap {width: 100%;position: absolute;left: 0;right: 0;top: 54px;background: #003E81;opacity: 0.8;filter: alpha(opacity=80);z-index: 100;display: none;}  */
+
