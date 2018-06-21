@@ -501,6 +501,7 @@ _width:expression(this.width > 1060 ? "1060px" : this.width);}   /**文章阅读
 .stitle {float: left;line-height: 48px;color: #272727;font-size: 20px;font-weight: normal;}
 .smore {float: right;line-height: 48px;color: #600808;font-size: 14px;}
 .smore a {color: #600808;}
+
 .snews_title {line-height: 24px;font-size: 15px;color: #000;float: left;width: 80.4%;}
 .news3 .more_btn {margin-top: 20px;margin-bottom: 0px;}
 .news1 a:hover {text-decoration: underline;}
@@ -511,6 +512,7 @@ _width:expression(this.width > 1060 ? "1060px" : this.width);}   /**文章阅读
 .xnews_title {font-size: 16px;color: #000;line-height: 29px;width: 100%;}
 .xnews_title a {color: #000;}
 .xnews_date {font-size: 12px;color: #a40c22;line-height: 27px;}
+
 .ynews {width: 30.7%;float: left;margin-left: 37px;border-top: 3px solid #a00c21;min-height: 330px;}
 .ynews.n3 {margin-left: 0;}
 .ynews_list li .img-link {display: inline-block;width: 100%;height: 144px;overflow: hidden;margin-bottom: 0px;}

@@ -2,14 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <meta name="viewport" content="width=device-width,user-scalable=0,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta content="yes" name="apple-mobile-web-app-capable" />
     <title>Hust</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/mystyle.css">
+    <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/jquery.sudyfocus.css">
     <link rel="stylesheet" href="hust.js/sudyNavi/css/sudyNav.css">
     <link rel="stylesheet" href="hust.js/extends/extends.css">
+
+
 </head>
 <body>
     <!-- 导航 -->
@@ -25,21 +30,21 @@
                     <div class="rolenav">
                             <ul  class="clearfix">
                                     <li class="cut cut-i1" >  <a class="nav-link link-i1" href="#" target="_self">学生</a> </li>
-                                    <li class="cut cut-i2" >  <a class="nav-link link-i2" href="#" target="_self">教职工</a> </li>                                    
+                                    <li class="cut cut-i2" >  <a class="nav-link link-i2" href="#" target="_self">教职工</a> </li>
                                     <li class="cut cut-i3" >  <a class="nav-link link-i3" href="#" target="_self">校友</a> </li>
-                                    <li class="cut cut-i4" >  <a class="nav-link link-i4" href="#" target="_self">访客</a> </li>    
+                                    <li class="cut cut-i4" >  <a class="nav-link link-i4" href="#" target="_self">访客</a> </li>
                             </ul>
                     </div>
                 </div>
                 <div class="head-right">
                     <div class="topnav" frag="窗口05">
                     </div>
-                    <div class="lang">                       
+                    <div class="lang">
                         <ul>
                             <li><a href="#" target="_blank">信息门户</a></li>
                             <li><a href="#" target="_blank">旧版入口</a></li>
                             <li><a href="#" target="_blank">English</a></li>
-                        </ul>        
+                        </ul>
                     </div>
                 </div>
                 <div class="main-menu">
@@ -54,16 +59,16 @@
                                 </ul>
                             </li>
                             <li class="menu-item i2" onmouseover="display(this)" onmouseout="hide(this)">
-                                <a class="menu-link " href="/726/list.htm" target="_self">院系设置</a> 
+                                <a class="menu-link " href="/726/list.htm" target="_self">院系设置</a>
                             </li>
                             <li class="menu-item i3"onmouseover="display(this)" onmouseout="hide(this)"> <a class="menu-link " href="/727/list.htm">师资队伍</a>
                                 <ul class="sub-menu">
-                                    <li class="sub-item i3-1 "> <a class="sub-link " href="#" >两院院士</a></li>                  
+                                    <li class="sub-item i3-1 "> <a class="sub-link " href="#" >两院院士</a></li>
                                     <li class="sub-item i3-2 "> <a class="sub-link " href="#" >杰出人才</a></li>
                                     <li class="sub-item i3-3 "> <a class="sub-link " href="#" >广纳英才</a> </li>
                                     <li class="sub-item i3-4 "> <a class="sub-link " href="#" >人事管理</a> </li>
                                     <li class="sub-item i3-5 "> <a class="sub-link " href="#" >教师主页</a> </li>
-                                </ul>  
+                                </ul>
                             </li>
                             <li class="menu-item i4" onmouseover="display(this)" onmouseout="hide(this)">
                                 <a  class="menu-link" href="#">学科建设</a>
@@ -74,7 +79,7 @@
                                         <li class="sub-item i4-4 "> <a class="sub-link " href="#" >博士学位授权一级学科</a> </li>
                                         <li class="sub-item i4-5 "> <a class="sub-link " href="#" >博士后流动站</a> </li>
                                 </ul>
-                            </li> 
+                            </li>
                             <li class="menu-item i5" onmouseover="display(this)" onmouseout="hide(this)">
                                 <a  class="menu-link" href="#">教育教学</a>
                                 <ul class="sub-menu" >
@@ -83,7 +88,7 @@
                                     <li class="sub-item i5-3 "> <a class="sub-link " href="http://sie.hust.edu.cn/" >留学生教育</a> </li>
                                     <li class="sub-item i5-4 "> <a class="sub-link " href="http://snde.hust.edu.cn/ ">继续教育</a> </li>
                                     </ul>
-                            </li> 
+                            </li>
                             <li class="menu-item i6" onmouseover="display(this)" onmouseout="hide(this)">
                                 <a  class="menu-link" href="#">科学研究</a>
                                 <ul class="sub-menu">
@@ -91,16 +96,16 @@
                                         <li class="sub-item i6-2 "> <a class="sub-link " href="" >科研管理</a> </li>
                                         <li class="sub-item i6-3 "> <a class="sub-link " href="" >校企合作</a> </li>
                                 </ul>
-                            </li> 
+                            </li>
                             <li class="menu-item i7" onmouseover="display(this)" onmouseout="hide(this)">
                                 <a  class="menu-link" href="#">招生研究</a>
-                                <ul class="sub-menu">         
+                                <ul class="sub-menu">
                                         <li class="sub-item i7-2 "> <a class="sub-link " href="http://gszs.hust.edu.cn/" >研究生招生</a> </li>
                                         <li class="sub-item i7-3 "> <a class="sub-link " href="http://iso.hust.edu.cn/"  >留学生招生</a> </li>
                                         <li class="sub-item i7-4 "> <a class="sub-link " href="http://job.hust.edu.cn/"  >本科生就业</a> </li>
                                         <li class="sub-item i7-5 "> <a class="sub-link " href="http://career.hust.edu.cn/">研究生就业</a> </li>
                                 </ul>
-                            </li> 
+                            </li>
                             <li class="menu-item i8" onmouseover="display(this)" onmouseout="hide(this)">
                                 <a  class="menu-link" href="#">合作交流</a>
                                 <ul class="sub-menu">
@@ -108,19 +113,19 @@
                                         <li class="sub-item i8-2 "> <a class="sub-link " href="http://www.hustgroup.net/" >科技合作</a></li>
                                         <li class="sub-item i8-3 "> <a class="sub-link " href="#" >国际交流</a> </li>
                                 </ul>
-                            </li> 
+                            </li>
                             <li class="menu-item i9"onmouseover="display(this)" onmouseout="hide(this)">
                                 <a  class="menu-link" href="#">文化生活</a>
                                 <ul class="sub-menu">
-                                    <ul class="sub-menu" style="display: none;">                  
-                                        <li class="sub-item i9-1 "> <a class="sub-link " href="#" >校园生活</a> </li>                                            
+                                    <ul class="sub-menu" style="display: none;">
+                                        <li class="sub-item i9-1 "> <a class="sub-link " href="#" >校园生活</a> </li>
                                         <li class="sub-item i9-2 "> <a class="sub-link " href="#" >服务信息</a> </li>
-                                        <li class="sub-item i9-3 "> <a class="sub-link " href="#" >讲座论坛</a> </li>                                            
+                                        <li class="sub-item i9-3 "> <a class="sub-link " href="#" >讲座论坛</a> </li>
                                         <li class="sub-item i9-4 "> <a class="sub-link " href="http://pic.hustonline.net/" >校园风光</a> </li>
                                         <li class="sub-item i9-5 "> <a class="sub-link " href="http://map.hustonline.net/" >校园地图</a> </li>
                                     </ul>
                                 </ul>
-                            </li> 
+                            </li>
                         </ul>
                 </div>
             </div>
@@ -175,22 +180,388 @@
             </div>
         </div>
     </div>
+    <div class="wp-navi-aside" id="wp-navi-aside">
+        <div class="aside-inner">
+            <div class="navi-aside-wrap"></div>
+        </div>
+        <div class="navi-aside-mask"></div>
+    </div>
+    <div class="wrapper news1" id="container">
+        <div class="inner clearfix">
+            <div class="wp-main-news panel-1">
+                <div class="mods-news-1" frag="窗口101">
+                    <div class="post-head">
+                        <div class="post-title" frag="标题"> 学校要闻</div>
+                        <div class="post-more xww"><a href="http://news.hust.edu.cn/main.htm" target="_blank">进入新闻网></a></div>
+                    </div>
+                </div>
+
+                <div class="mods-news-l" frag="窗口109">
+                    <div class="xnews_list">
+                        <div class="xnews_img"><img src="./images/news/109/a2af3702-217d-4acb-a866-28e88586e3ab_s.jpg"></div>
+                        <div class="xnews_title"><a href='#' target='_blank' title='我校ESI排名稳步上升 '>我校ESI排名稳步上升 </a></div>
+                        <div class="xnews_date">2018-05-14</div>
+                    </div>
+                </div>
+                <div class="mods-news-r" frag="窗口110">
+                    <ul class="ynews_list clearfix">
+
+                        <li class="ynews n1 clearfix">
+                            <p class="ynews_title"> <a href='#' target='_blank' title='【喜迎党代会·奋进双一流】打造一流本科 让“学在华中大”的品牌更闪亮'>【喜迎党代会·奋进双一流】打造一流本科 让“学在华中大”的品牌更闪亮</a> </p>
+                            <p class="ynews_wz">为落实立德树人，实现学校“一流教学，一流本科”的办学目标，践行“以学生为中心的教育”理念，让“学在华中大”的品牌更闪亮，2011年以来，学校在推进教育教学改革工作中取得了一定的成绩...</p>
+                            <p class="ypost_time"> 2018-05-16 </p>
+                        </li>
+
+                        <li class="ynews n2 clearfix"> <a class="img-link" href="/_redirect?siteId=3&columnId=189&articleId=90877"><img src="./images/news/110/af816f38-00ae-4483-b09a-e24656ecc3d2.jpg" class="imgs"/></a>
+                            <p class="ynews_title"> <a href='#' target='_blank' title='2017年度我校重大学术进展颁奖典礼暨学术交流会举行'>2017年度我校重大学术进展颁奖典礼暨学术交流会举行</a> </p>
+                            <p class="ynews_wz">5月10日，首届华中科技大学年度重大学术进展颁奖典礼暨学术交流会举行。</p>
+                            <p class="ypost_time"> 2018-05-16 </p>
+                        </li>
+
+                        <li class="ynews n3 clearfix"> <a class="img-link" href="http://news.hust.edu.cn/2018/0601/c155a91101/page.htm"><img src="./images/news/110/7afbdda2-7d9d-45ef-9931-9b7b4996abf0.png" class="imgs"/></a>
+                            <p class="ynews_title"> <a href='#' target='_blank' title='促合作揽人才  校领导赴欧访问'>促合作揽人才  校领导赴欧访问</a> </p>
+                            <p class="ynews_wz">5月20日至27日，校长丁烈云院士率团赴法国、瑞士和瑞典招聘人才，推进校际交流合作。</p>
+                            <p class="ypost_time"> 2018-06-01 </p>
+                        </li>
+
+                        <li class="ynews n4 clearfix"> <a class="img-link" href="/_redirect?siteId=3&columnId=189&articleId=91141"><img src="./images/news/110/ed4e94a0-2d18-49e1-842b-ed0422ba6fa2.jpg" class="imgs"/></a>
+                            <p class="ynews_title"> <a href='#' target='_blank' title='央视《新闻联播》报道同济医院帮扶基层助力医改'>央视《新闻联播》报道同济医院帮扶基层助力医改</a> </p>
+                            <p class="ynews_wz">6月4日，《新闻联播》报道了同济医院对口帮扶江西省信丰县人民医院建立医联体助力医改的事迹。</p>
+                            <p class="ypost_time"> 2018-06-06 </p>
+                        </li>
+
+                        <li class="ynews n5 clearfix"> <a class="img-link" href="/_redirect?siteId=3&columnId=189&articleId=90846"><img src="./images/news/110/58741e36-f6b1-4d29-a46e-d5fe41b9b82e.jpg" class="imgs"/></a>
+                            <p class="ynews_title"> <a href='#' target='_blank' title='副省长陈安丽调研精密重力测量研究设施'>副省长陈安丽调研精密重力测量研究设施</a> </p>
+                            <p class="ynews_wz">5月11日，湖北省副省长陈安丽来校调研精密重力测量研究设施。她希望引力实验中心师生抢前争先，再进一步，抓住机遇，推动“天琴计划”项目落户湖北。</p>
+                            <p class="ypost_time"> 2018-05-14 </p>
+                        </li>
+
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="clear"></div>
+            <div class="wp-main-news panel-2" frag="面板102">
+                <div class="mods-news-2" frag="窗口102">
+                    <div class="headline">
+                        <div class="stitle" frag="标题"> 通知公告</div>
+                        <div class="smore" frag="按钮" type="更多"> <a href="#" class="w102_more"><span frag="按钮内容">更多+ </span></a></div>
+                    </div>
+                    <div class="post-body">
+                        <div class="snews_list m1">
+                            <div class="snews_date">
+                                <div class="date-day">15</div>
+                                <div class="date-year"> 2018-05 </div>
+                            </div>
+                            <div class="snews_title"><a href=#' target='_blank' title='关于开展2018第四届华中科技大学线上长跑—— “奔跑吧！我的科”的活动通知'>关于开展2018第四届华中科技大学线上长跑—— “奔跑吧！我的科”的活动通知</a></div>
+                        </div>
+
+                        <div class="snews_list m2">
+                            <div class="snews_date">
+                                <div class="date-day">14</div>
+                                <div class="date-year"> 2018-05 </div>
+                            </div>
+                            <div class="snews_title"><a href='#' target='_blank' title='关于做好2018年本科生招生宣传人员报名推荐工作的通知'>关于做好2018年本科生招生宣传人员报名推荐工作的通知</a></div>
+                        </div>
+
+                        <div class="snews_list m3">
+                            <div class="snews_date">
+                                <div class="date-day">14</div>
+                                <div class="date-year"> 2018-05 </div>
+                            </div>
+                            <div class="snews_title"><a href='#' target='_blank' title='校领导接待日工作预告（81）'>校领导接待日工作预告（81）</a></div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="wp-main-news panel-3" frag="面板103">
+                <div class="mods-news-3" frag="窗口103">
+                    <div class="headline">
+                        <div class="stitle" frag="标题"> 媒体聚焦</div>
+                    </div>
+                    <div class="post-body">
+
+
+                        <div class="snews_list m1">
+                            <div class="snews_date">
+                                <div class="date-day">16</div>
+                                <div class="date-year"> 2018-05 </div>
+                            </div>
+                            <div class="snews_title"><a href='#' target='_blank' title='【新华网】全球首台全数字“癌症预警机”武汉研发'>【新华网】全球首台全数字“癌症预警机”武汉研发</a></div>
+                        </div>
+
+                        <div class="snews_list m2">
+                            <div class="snews_date">
+                                <div class="date-day">14</div>
+                                <div class="date-year"> 2018-05 </div>
+                            </div>
+                            <div class="snews_title"><a href='#' target='_blank' title='【湖北日报】陈安丽在华中科技大学调研强调 凝聚共识抢前争先 推动科技高质量发展'>【湖北日报】陈安丽在华中科技大学调研强调 凝聚共识抢前争先 推动科技高质量发展</a></div>
+                        </div>
+
+                        <div class="snews_list m3">
+                            <div class="snews_date">
+                                <div class="date-day">14</div>
+                                <div class="date-year"> 2018-05 </div>
+                            </div>
+                            <div class="snews_title"><a href='#' target='_blank' title='【长江日报】心肺复苏，生命守护——纪念5.12国际护士节　华中科技大学举办CPR快闪行动'>【长江日报】心肺复苏，生命守护——纪念5.12国际护士节　华中科技大学举办CPR快闪行动</a></div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="wp-main-news panel-4" frag="面板104">
+                <div class="mods-news-4" frag="窗口104">
+                    <div class="headline">
+                        <div class="stitle" frag="标题"> 综合新闻</div>
+                    </div>
+                    <div class="post-body">
+
+
+                        <div class="snews_list m1">
+                            <div class="snews_date">
+                                <div class="date-day">16</div>
+                                <div class="date-year"> 2018-05 </div>
+                            </div>
+                            <div class="snews_title"><a href='#' target='_blank' title='​学界业界共享经济学科发展及应用 '>​学界业界共享经济学科发展及应用 </a></div>
+                        </div>
+
+                        <div class="snews_list m2">
+                            <div class="snews_date">
+                                <div class="date-day">16</div>
+                                <div class="date-year"> 2018-05 </div>
+                            </div>
+                            <div class="snews_title"><a href='#' target='_blank' title='青年律师谈知识产权与法律实务 '>青年律师谈知识产权与法律实务 </a></div>
+                        </div>
+
+                        <div class="snews_list m3">
+                            <div class="snews_date">
+                                <div class="date-day">16</div>
+                                <div class="date-year"> 2018-05 </div>
+                            </div>
+                            <div class="snews_title"><a href='#' target='_blank' title='计算机学院与船海学院举办《共产党宣言》学习会 '>计算机学院与船海学院举办《共产党宣言》学习会 </a></div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="wrapper news3" id="container">
+        <div class="inner">
+            <div class="mod" >
+
+                <div class="post post-13 mbox" >
+
+                    <div class="tt">
+                        <h3 class="tt_tt">
+                            <span class="title" frag="标题" title="学生 · 学者 · 学术"> 学生 · 学者 · 学术</span>
+                        </h3>
+                    </div>
+                    <div class="con">
+
+                        <ul class="news_list clearfix">
+                            <li class="news n1 clearfix">
+                                <img src='./images/post/51610247-2b9e-4afd-bca8-0a25dc635459_s.png' width='140' />
+                                <div class="imgr">
+                                    <p class="news_title">
+                                        <a href='/_redirect?siteId=3&columnId=108&articleId=90845' target='_blank' title='陈德智：享受物理的美 '>陈德智：享受物理的美 </a>
+                                    </p>
+                                    <p class="news_meta post_time"> 2018-05-14 </p>
+                                </div>
+                                <p class="news_wz">关于如何上好既让人望而生畏而又极端重要的电磁场理论课，电气学院陈德智教授有着自己的见解：“要调动起学生的积极性，首先教师自己要热爱电磁场，这样教师的激情就会在不知不觉中感染课堂、感染学生。”</p>
+                            </li>
+
+                            <li class="news n2 clearfix"> <img src='./images/post/2459de0d-5aab-44a2-9706-54125bb62202_s.png' width='140' />
+                                <div class="imgr">
+                                    <p class="news_title"> <a href='/_redirect?siteId=3&columnId=108&articleId=90704' target='_blank' title='杨子曦：一万公里的约定 '>杨子曦：一万公里的约定 </a> </p>
+                                    <p class="news_meta post_time"> 2018-05-04 </p>
+                                </div>
+                                <p class="news_wz">本科四年只是人生的一段短途，她将“明德厚学，求是创新”的校训铭记在心，用马拉松精神跑出了灿烂美好的大学记忆。建规学子杨子曦以一个奔跑者的姿态在新的起点许下诺言。</p>
+                            </li>
+
+                            <li class="news n3 clearfix"> <img src='./images/post/eaf93689-94be-46c6-80ed-0af34ebd6ea2_s.png' width='140' />
+                                <div class="imgr">
+                                    <p class="news_title"> <a href='/_redirect?siteId=3&columnId=108&articleId=90676' target='_blank' title='李艳辉：一年接生1200个非洲宝宝'>李艳辉：一年接生1200个非洲宝宝</a> </p>
+                                    <p class="news_meta post_time"> 2018-05-03 </p>
+                                </div>
+                                <p class="news_wz">协和医院妇产科36岁的医生李艳辉是湖北省第25批援阿尔及利亚医疗队队员之一。过去一年里，他在非洲撒哈拉沙漠边上的赛伊达省妇儿医院完成了大量剖宫产手术，让1200名宝宝健康平安地来到人世间。</p>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                    <div class="more_btn" frag="按钮" type="更多">
+                        <a href="#" class="w13_more">
+                            <span class="more_text" frag="按钮内容">更多&gt;&gt;</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper news4" id="container">
+        <div class="inner">
+            <div class="mod" frag="面板14">
+                <div class="post post-14 mbox" frag="窗口14">
+                    <div class="tt">
+                        <h3 class="tt_tt">
+                            <span class="title" frag="标题"> 专题专栏</span>
+                        </h3>
+                    </div>
+                    <div class="con">
+
+                        <ul class="news_list clearfix">
+
+                            <li class="news n1 clearfix">
+                                <a class="img-link" href="http://focus.hustonline.net/">
+                                    <img src='./images/post/2e80bf0e-8445-4ec0-a5af-519b73875f1b_s.jpg' width='320' /></a>
+                                <div class="imgr">
+                                    <p class="news_title">
+                                        <a href='http://focus.hustonline.net/' target='_blank' title='党的十九大专题'>党的十九大专题</a>
+                                    </p>
+                                    <p class="news_meta post_time"> 2016-12-30 </p>
+                                </div>
+                                <p class="news_wz">中国共产党第十九次全国代表大会开幕会于10月18日上午在人民大会堂大礼堂举行。习近平同志代表十八届中央委员会向大会作报告。广大师生通过多种方式收听收看开幕会，并掀起了学习十九大报告的热潮。
+
+                                </p>
+                                <p class="ly">新闻网讯（罗小丽）</p>
+                            </li>
+
+                            <li class="news n2 clearfix">
+                                <a class="img-link" href="http://cxcy.hust.edu.cn">
+                                    <img src='./images/post/0167229c-6c57-4f3d-91e9-8a8d38afe0c2_s.jpg' width='320' /></a>
+                                <div class="imgr">
+                                    <p class="news_title">
+                                        <a href='http://cxcy.hust.edu.cn' target='_blank' title='创新创业华中大'>创新创业华中大</a>
+                                    </p>
+                                    <p class="news_meta post_time"> 2017-03-14 </p>
+                                </div>
+                                <p class="news_wz">我校是一所有着优良创新创业教育传统和文化的高校。近年来，学校通过实施“三个三”工程建设，逐步形成了从课内到课外、从创新到创业，校内校外相结合，以自主实践、创新驱动、团队协同、学科交叉为鲜明特色的大学生创新创业教育体系。
+                                </p>
+                                <!--<p class="ly"></p>-->
+                            </li>
+
+                            <li class="news n3 clearfix">
+                                <a class="img-link" href="http://dqlh.hust.edu.cn/">
+                                    <img src='./images/post/c90389c1-922f-468f-8533-39281bf7b4a9_s.jpg' width='320' /></a>
+                                <div class="imgr">
+                                    <p class="news_title">
+                                        <a href='http://dqlh.hust.edu.cn/' target='_blank' title='党的建设'>党的建设</a>
+                                    </p>
+                                    <p class="news_meta post_time"> 2015-12-25 </p>
+                                </div>
+                                <p class="news_wz">严明政治纪律，严守政治规矩，需要坚持“五个必须”，即：必须维护党中央权威，在任何时候任何情况下都要在思想上政治上行动上同党中央保持高度一致；必须维护党的团结，坚持五湖四海，团结一切忠实于党的同志；必须遵循组织程序，重大问题该请示的请示，该汇报的汇报，不允许超越权限办事；必须服从组织决定，决不允许搞非组织活动，不得违背组织决定；必须管好亲属和身边工作人员，不得默许他们利用特殊身份谋取非法利益。</p>
+                                <p class="ly">新闻网讯（罗小丽）</p>
+                            </li>
+
+                            <!--<li class="news n4 clearfix"> <a class="img-link" href="http://kyzj.fiscal.hust.edu.cn"><img src='/_upload/article/images/ab/a6/2c31e62e447eb05c2659c6a1f256/22093ae2-3993-4271-a9ad-5ed3d4cd9104_s.jpg' width='320' /></a>-->
+                                <!--<div class="imgr">-->
+                                    <!--<p class="news_title"> <a href='http://kyzj.fiscal.hust.edu.cn' target='_blank' title='中央财政科研项目资金管理政策'>中央财政科研项目资金管理政策</a> </p>-->
+                                    <!--<p class="news_meta post_time"> 2015-12-25 </p>-->
+                                <!--</div>-->
+                                <!--<p class="news_wz">为大力宣传中央财政科技政策，促进中央财政科研项目资金管理改革举措落实落地，根据财政部、教育部统一部署，现设立专栏，集中系统发布近年来中央财政相关科研项目和资金管理文件及解读</p>-->
+                                <!--&lt;!&ndash;<p class="ly">新闻网讯（罗小丽）</p>&ndash;&gt;-->
+                            <!--</li>-->
+
+                        </ul>
+
+                    </div>
+                    <div class="more_btn" frag="按钮" type="更多"> <a href="#" class="w14_more"><span class="more_text" frag="按钮内容">更多&gt;&gt;</span></a> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper" id="botnav">
+        <div class="inner">
+            <div class="title"> 常用链接 </div>
+            <div class="link-box" >
+                <div >
+                    <ul class="links-wrap">
+                        <li class="link-item link-i i1 "> <a class="menu-link " href="http://www.lib.hust.edu.cn/" target="_blank"><em class="icon"></em><span>图书馆</span></a> </li>
+                        <li class="link-item link-i i2 "> <a class="menu-link " href="http://xsyj.hust.edu.cn/" target="_blank"><em class="icon"></em><span>校史馆</span></a> </li>
+                        <li class="link-item link-i i3 "> <a class="menu-link " href="http://www.tjmu.edu.cn/" target="_blank"><em class="icon"></em><span>同济医学院</span></a> </li>
+                        <li class="link-item link-i i4 "> <a class="menu-link " href="http://service.hust.edu.cn/" target="_blank"><em class="icon"></em><span>师生服务中心</span></a> </li>
+                        <li class="link-item link-i i5 "> <a class="menu-link " href="http://mail.hust.edu.cn" target="_blank"><em class="icon"></em><span>邮箱登录</span></a> </li>
+                        <li class="link-item link-i i6 "> <a class="menu-link " href="http://xxgk.hust.edu.cn" target="_blank"><em class="icon"></em><span>信息公开</span></a> </li>
+                    </ul>
+                </div>
+            </div>
+            <!--事业单位-->
+            <script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/33/000/0000/60874777/CA330000000608747770002.js' type='text/javascript'%3E%3C/script%3E"));</script>
+
+            <ul class="shares">
+                <li class="share n1">
+                    <a href="javascript:;" class="sharename zdy-1 zdy"></a>
+                    <a href="javascript:;" class="sharename jia">官方微信</a>
+                    <div class="con">
+                        <img src="./images/foot/weixin.png"/>
+                    </div>
+                </li>
+                <li class="share n2">
+                    <a href="/750/list.htm" target="_blank" class="sharename zdy-2 zdy"></a>
+                    <a href="/750/list.htm" target="_blank" class="sharename jia">移动应用</a>
+                    <div class="con"></div>
+                </li>
+                <li class="share n3 ">
+                    <a href="javascript:;" class="sharename zdy-3 zdy"></a>
+                    <a href="javascript:;" class="sharename jia">官方微博</a>
+                    <div class="con">
+                        <img src="./images/foot/weibo.png"/>
+                    </div>
+                </li>
+                <li class="share n4 ">
+                    <a href="http://bbs.whnet.edu.cn/" target="_blank" class="sharename zdy-4 zdy"></a>
+                    <a href="http://bbs.whnet.edu.cn/" target="_blank" class="sharename jia">白云黄鹤</a>
+                    <div class="con"></div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!--foot-->
+    <div class="wrapper" id = "footer">
+        <div class="inner">
+            <div class="foot">
+                <span class="copyroght">
+                    地址：湖北省武汉市洪山区珞喻路1037号
+                </span>
+                <span class="email">
+                    邮政编码：430074　电话：027-87541114
+                </span>
+                <span class="fax">&nbsp;&nbsp;
+                    传真：027-87545438&nbsp;&nbsp;鄂ICP备05003321号-1&nbsp;&nbsp;
+                    <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=42011102000123">
+                        <img src="./images/foot/ba.png" width="15" height="15"/>&nbsp;鄂公网安备 42011102000123号</a>
+                </span>
+            </div>
+
+        </div>
+
+    </div>
 </body>
 
     <script language="javascript" src="hust.js/jquery.min.js"></script>
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/menu-display.js"></script> -->
+    <script src="js/menu-display.js"></script>
     <script language="javascript" src="hust.js/jquery.sudy.wp.visitcount.js" sudy-wp-context="" sudy-wp-siteId="3"></script>
     <script type="text/javascript" src="hust.js/jquery.sudyfocus.js"></script>
     <script type="text/javascript" src="hust.js/jquery.easing.min.js"></script>
     <script type="text/javascript" src="hust.js/jquery.mousewheel.min.js"></script>
     <script type="text/javascript" src="hust.js/fontscroll.js"></script>
     <script type="text/javascript" src="hust.js/sudyNavi/jquery.sudyNav.js"></script>
+    <!--图片切换效果-->
     <script type="text/javascript" src="hust.js/extends/extends.js"></script>
     <script type="text/javascript" src="hust.js/app.js"></script>
- <script src="hust.js/main.js"></script>
+    <script src="hust.js/main.js"></script>
 
     <script type="text/javascript">
         $(function(){
